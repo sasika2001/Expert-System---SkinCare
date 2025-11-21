@@ -19,7 +19,7 @@ If a user selects <strong>“Oily Skin”</strong> and <strong>“Acne”</stron
   <li> Includes a planned Phase 2 for automatic skin issue detection from facial images</li>
 </ul>
 
-<h2>🧠 System Workflow</h2>
+<h2> System Workflow</h2>
 <ol>
   <li>User enters:
     <ul>
@@ -33,7 +33,7 @@ If a user selects <strong>“Oily Skin”</strong> and <strong>“Acne”</stron
   <li>Results (products + advice) are displayed to the user.</li>
 </ol>
 
-<h2>⚙️ Technologies Used</h2>
+<h2>Technologies Used</h2>
 <table>
 <tr><th>Category</th><th>Tools / Libraries</th></tr>
 <tr><td>Programming Language</td><td>Python 3.10</td></tr>
@@ -46,7 +46,7 @@ If a user selects <strong>“Oily Skin”</strong> and <strong>“Acne”</stron
 <tr><td>IDE</td><td>VS Code</td></tr>
 </table>
 
-<h2>📁 Project Folder Structure</h2>
+<h2> Project Folder Structure</h2>
 <pre>
 SkinCareExpertSystem/
 │
@@ -59,31 +59,31 @@ SkinCareExpertSystem/
 └── README.md                   # Project documentation
 </pre>
 
-<h2>📦 Installation & Setup (Windows)</h2>
+<h2>Installation & Setup (Windows)</h2>
 
-<h3>1️⃣ Clone or Download the Project</h3>
+<h3>1. Clone or Download the Project</h3>
 <pre><code>git clone https://github.com/yourusername/skincare-expert-system.git
 cd skincare-expert-system
 </code></pre>
 
-<h3>2️⃣ Open Command Prompt or PowerShell</h3>
+<h3>2. Open Command Prompt or PowerShell</h3>
 <p>Press <strong>Windows + R</strong>, type <code>cmd</code>, and press Enter.<br>
 Then navigate to your project folder (example):</p>
 <pre><code>cd C:\Users\<YourUserName>\Desktop\SkinCareExpertSystem
 </code></pre>
 
-<h3>3️⃣ Create a Virtual Environment</h3>
+<h3>3. Create a Virtual Environment</h3>
 <pre><code>python -m venv venv
 </code></pre>
 
-<h3>4️⃣ Activate the Virtual Environment</h3>
+<h3>4. Activate the Virtual Environment</h3>
 <pre><code>venv\Scripts\activate
 </code></pre>
 <p>If activated successfully, you’ll see:</p>
 <pre><code>(venv) C:\Users\YourName\Desktop\SkinCareExpertSystem&gt;
 </code></pre>
 
-<h3>5️⃣ Install Required Libraries</h3>
+<h3>5. Install Required Libraries</h3>
 <p>If you have a <code>requirements.txt</code> file:</p>
 <pre><code>pip install -r requirements.txt
 </code></pre>
@@ -91,18 +91,18 @@ Then navigate to your project folder (example):</p>
 <pre><code>pip install experta groq python-dotenv pandas streamlit
 </code></pre>
 
-<h3>6️⃣ Set Up Environment Variables</h3>
+<h3>6. Set Up Environment Variables</h3>
 <p>Create a <code>.env</code> file in the project folder and add your Groq API key:</p>
 <pre><code>GROQ_API_KEY=your_api_key_here
 </code></pre>
 
-<h2>▶️ How to Run the Project</h2>
+<h2> How to Run the Project</h2>
 
-<h3>🖥️ Option 1 — Console Version</h3>
+<h3> Option 1 — Console Version</h3>
 <pre><code>python skincare_expert_system.py
 </code></pre>
 
-<h3>🌐 Option 2 — Streamlit Web UI</h3>
+<h3> Option 2 — Streamlit Web UI</h3>
 <pre><code>streamlit run ui.py
 </code></pre>
 <p>This will automatically open a local web app in your browser, usually at <code>http://localhost:8501</code>.</p>
@@ -116,12 +116,12 @@ Then navigate to your project folder (example):</p>
 
 <p>Results include:</p>
 <ul>
-  <li>💄 Recommended products</li>
-  <li>💬 Personalized skincare advice</li>
-  <li>🧾 History saved to <code>user_history.csv</code></li>
+  <li> Recommended products</li>
+  <li> Personalized skincare advice</li>
+  <li> History saved to <code>user_history.csv</code></li>
 </ul>
 
-<h2>🧩 Example Output</h2>
+<h2> Example Output</h2>
 <p><strong>Input Example:</strong></p>
 <pre><code>Skin Type: Oily
 Skin Issue: Acne
@@ -139,14 +139,14 @@ AI Advice:
 Avoid heavy creams and use a lightweight, oil-free moisturizer."
 </code></pre>
 
-<h2>🚀 Future Improvements</h2>
+<h2> Future Improvements</h2>
 <ul>
   <li>Stage 2: Automatically detect skin type & issues from facial images using CNN + OpenCV</li>
   <li>Stage 3: Mobile app version using Flutter or React Native</li>
   <li>Stage 4: Connect to a skincare product API for live recommendations</li>
 </ul>
 
-<h2>👩‍💻 Author</h2>
+<h2> Author</h2>
 <p><strong>Sasika Sewmini</strong><br>
 University of Moratuwa — 3rd Year Undergraduate<br>
 <a href="https://www.linkedin.com/in/sasika-sewmini-dp-829535351">LinkedIn Profile</a><br>
