@@ -5,18 +5,18 @@
 It uses <strong>rule-based reasoning (Experta)</strong> and <strong>Groq LLM</strong> to generate intelligent, human-like skincare advice.</p>
 
 <blockquote>
-💡 <em>Example:</em><br>
+ <em>Example:</em><br>
 If a user selects <strong>“Oily Skin”</strong> and <strong>“Acne”</strong>, the system suggests suitable cleansers, moisturizers, and serums while offering professional guidance on skincare routines.
 </blockquote>
 
-<h2>🎯 Key Features</h2>
+<h2> Key Features</h2>
 <ul>
-  <li>✅ Takes <strong>user input</strong> (skin type, issues, budget)</li>
-  <li>✅ Uses <strong>Experta</strong> for expert reasoning and rule-based decisions</li>
-  <li>✅ Integrates <strong>Groq LLM</strong> to generate personalized skincare advice</li>
-  <li>✅ Provides skincare product recommendations based on condition</li>
-  <li>✅ User-friendly and easy to extend</li>
-  <li>✅ Includes a planned Phase 2 for automatic skin issue detection from facial images</li>
+  <li> Takes <strong>user input</strong> (skin type, issues, budget)</li>
+  <li> Uses <strong>Experta</strong> for expert reasoning and rule-based decisions</li>
+  <li> Integrates <strong>Groq LLM</strong> to generate personalized skincare advice</li>
+  <li> Provides skincare product recommendations based on condition</li>
+  <li> User-friendly and easy to extend</li>
+  <li> Includes a planned Phase 2 for automatic skin issue detection from facial images</li>
 </ul>
 
 <h2>🧠 System Workflow</h2>
